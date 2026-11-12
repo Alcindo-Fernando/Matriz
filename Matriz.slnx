@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Ex1/Ex1.csproj" />
+  <Project Path="Ex2/Ex2.csproj" Id="6b798a74-6943-4eab-b584-d402db7a06a1" />
+  <Project Path="Matriz/Exemplos.csproj" />
+</Solution>

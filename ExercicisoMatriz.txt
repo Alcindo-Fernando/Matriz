@@ -1,0 +1,4 @@
+faça um programa que crie uma matriz de numeros inteiros na quantidade de linhas e colunas que o usuaio informar, essa matriz deve ser
+populada automaticamente e ser exibida do primeiro ao ultimo e do ultimo para o primeiro;
+
+faça um programa que gere uma  matriz 3x5 populada automaticamnete e baseada nela gere uma nova matriz inversa(5x3)
