@@ -29,7 +29,7 @@ void ExibirMatriz(int[,] matriz)
     {
         for (int j = 0; j < coluna; j++)
         {
-            Console.Write($"[{matriz[i, j]}]");
+            Console.Write($"[{matriz[i, j]}]\t" );
         }
 
         Console.WriteLine("\n");

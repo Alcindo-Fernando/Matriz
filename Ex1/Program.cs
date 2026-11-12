@@ -34,8 +34,9 @@ void ExibirMatriz(int[,] matriz)
     {
         for(int j = 0; j < coluna; j++)
         {
-            Console.WriteLine($"[{matriz[i, j]}]");
+            Console.Write($"[{matriz[i, j]}]\t");
         }
+        Console.WriteLine();
     }
 }
 
@@ -46,8 +47,9 @@ void ExibirInvertido(int[,] matriz)
     {
         for(int j = coluna-1; j >= 0; j--)
         {
-            Console.WriteLine($"[{matriz[i,j]}]");
+            Console.Write($"[{matriz[i,j]}]\t");
         }
+        Console.WriteLine();
     }
 }
 
