@@ -10,44 +10,48 @@ int contadorNota; ;
 float soma;
 float media;
 
-for (int i = 0; i < 4; i++)
+void AdicionarNotas()
 {
-    soma = 0;
-    media = 0;
-    float nota = 0;
-    contadorNota = 1;
-    for(int j = 1; j < 5; j++)
+    for (int i = 0; i < 4; i++)
     {
-        Console.WriteLine($"adicione a nota {contadorNota} da matéria {boletim[contadorMateria,0]}: ");
-        nota = float.Parse(Console.ReadLine());
+        soma = 0;
+        media = 0;
+        float nota = 0;
+        contadorNota = 1;
+        for (int j = 1; j < 5; j++)
+        {
+            Console.WriteLine($"adicione a nota {contadorNota} da matéria {boletim[contadorMateria, 0]}: ");
+            nota = float.Parse(Console.ReadLine());
 
-        soma += nota;
+            soma += nota;
 
-        boletim[i, j] = nota.ToString();
+            boletim[i, j] = nota.ToString();
 
 
-        contadorNota++;
+            contadorNota++;
 
+        }
+
+        media = soma / 4;
+        if (media < 4)
+        {
+            boletim[i, 6] = "Reprovado!";
+        }
+        else if (media > 4 && media < 7)
+        {
+            boletim[i, 6] = "Recuperação!";
+        }
+        else
+        {
+            boletim[i, 6] = "Aprovado!";
+
+        }
+
+        boletim[i, 5] = media.ToString();
+
+
+        contadorMateria++;
     }
-
-    media = soma / 4;
-    if(media < 4)
-    {
-        boletim[i, 6] = "Reprovado!";
-    } else if(media > 4 || media < 7)
-    {
-        boletim[i, 6] = "Recuperação!";
-    }
-    else
-    {
-        boletim[i, 6] = "Aprovado!";
-
-    }
-
-    boletim[i, 5] = media.ToString();
-
-
-    contadorMateria++;
 }
 
 void ExibirMatriz(string[,] matriz)
@@ -65,5 +69,7 @@ void ExibirMatriz(string[,] matriz)
     }
 
 }
+
+AdicionarNotas();
 
 ExibirMatriz(boletim);
