@@ -1,5 +1,7 @@
 <Solution>
+  <Project Path="ConsoleApp1/Ex3.csproj" Id="0e33fd4d-48d0-42b8-916c-d566fbc8216f" />
   <Project Path="Ex1/Ex1.csproj" />
   <Project Path="Ex2/Ex2.csproj" Id="6b798a74-6943-4eab-b584-d402db7a06a1" />
+  <Project Path="Ex4/Ex4.csproj" Id="faf3af6c-2171-41d0-9f2d-ee17dcdf6f1c" />
   <Project Path="Matriz/Exemplos.csproj" />
 </Solution>
