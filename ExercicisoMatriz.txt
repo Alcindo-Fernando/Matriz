@@ -1,4 +1,11 @@
-faça um programa que crie uma matriz de numeros inteiros na quantidade de linhas e colunas que o usuaio informar, essa matriz deve ser
+1 faça um programa que crie uma matriz de numeros inteiros na quantidade de linhas e colunas que o usuaio informar, essa matriz deve ser
 populada automaticamente e ser exibida do primeiro ao ultimo e do ultimo para o primeiro;
 
-faça um programa que gere uma  matriz 3x5 populada automaticamnete e baseada nela gere uma nova matriz inversa(5x3)
+2 faça um programa que gere uma  matriz 3x5 populada automaticamnete e baseada nela gere uma nova matriz inversa 
+
+3 faça um programa que crie e preencha uma matriz quadrada que sera informada pelo usuario, mostre os calculos somando os valores
+ de cada linha, de cada coluna, da diagonal principal e diagonal inversa;
+
+4 faça um programa que gere o boletim escolar de um aluno,
+critérios: as linhas são as matérias, as colunas são as notas de cada
+ bimestre, mais a média e a situação do aluno em cada matéria; 
